@@ -1,0 +1,88 @@
+<!--index.wxml-->
+<swiper class="contentSlide" indicator-color="rgba(0,0,0,0.3)" indicator-active-color="#625f5f" indicator-dots circular autoplay>
+  <swiper-item class="list">
+    <view class="listItem">
+      <image src="/images/1.png" />
+      <view>美食</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/2.png" />
+      <view>超市便利</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/3.png" />
+      <view>生鲜果蔬</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/4.png" />
+      <view>美团专送</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/5.png" />
+      <view>跑腿代购</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/6.png" />
+      <view>晚餐优选</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/7.png" />
+      <view>甜点饮品</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/8.png" />
+      <view>家常菜</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/9.png" />
+      <view>减免配送费</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/10.png" />
+      <view>品牌连锁</view>
+    </view>
+  </swiper-item>
+  <swiper-item class="list">
+    <view class="listItem">
+      <image src="/images/10.png" />
+      <view>品牌连锁</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/9.png" />
+      <view>减免配送费</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/8.png" />
+      <view>家常菜</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/7.png" />
+      <view>甜点饮品</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/6.png" />
+      <view>晚餐优选</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/5.png" />
+      <view>跑腿代购</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/4.png" />
+      <view>美团专送</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/3.png" />
+      <view>生鲜果蔬</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/2.png" />
+      <view>超市便利</view>
+    </view>
+    <view class="listItem">
+      <image src="/images/1.png" />
+      <view>美食</view>
+    </view>
+  </swiper-item>
+</swiper>
+   

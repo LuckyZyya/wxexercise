@@ -1,0 +1,22 @@
+/**index.wxss**/
+.contentSlide {
+  font-size: 9pt;
+  height: 450rpx;
+}
+.contentSlide image {
+  width: 65px;
+  height: 65px;
+  margin: 0 8rpx;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItem {
+  flex: 1;
+}
+.listItem>view {
+  width: 65px;
+  text-align: center;
+  margin: 8rpx auto;
+}
