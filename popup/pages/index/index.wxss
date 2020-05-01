@@ -1,0 +1,7 @@
+/**index.wxss**/
+
+view {
+  font-family: Comic Sans MS;
+  font-size: 18px;
+  color: #333;
+}
