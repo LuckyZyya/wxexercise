@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="title">
+  <textarea placeholder-class="place-holder" placeholder="写下关于元素的介绍 " name="introduction" maxlength='300' bindinput='limit' value="{{text}}" />
+  <!-- 显示字数 -->
+  <view class="count">
+    <text>{{current}} / {{max}} （最多可写300字）</text>
+  </view>
+</view>

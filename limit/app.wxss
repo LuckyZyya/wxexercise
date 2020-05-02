@@ -1,0 +1,13 @@
+/**app.wxss**/
+.title {
+  border: 1px solid #ffa6a6;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.count {
+  color: #ccc;
+  font-size: 14px;
+  float: right;
+  margin-right: 2%;
+}
