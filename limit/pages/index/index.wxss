@@ -1,21 +1,78 @@
 /**index.wxss**/
-.userinfo {
+
+.title {
+  border-top: 1px solid #c04851;
+  border-bottom: 1px solid #c04851;
+  font-size: 14px;
+  margin: 10rpx 30rpx;
+}
+
+.count {
+  color: #ccc;
+  font-size: 14px;
+  float: right;
+  margin-top: -40rpx;
+}
+
+.uploadTitle {
+  font-size: 16px;
+  margin-left: 30rpx;
+}
+
+.imgUpload {
+  width: 630rpx;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+/*每张图片所占容器*/
+
+.pic {
+  position: relative;
+  margin: 10rpx 5rpx;
+  width: 200rpx;
+  height: 200rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.pic image {
+  width: 100%;
+  height: 100%;
 }
 
-.usermotto {
-  margin-top: 200px;
+/* 添加按钮 */
+
+.pic .addIcon {
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 80rpx;
+  border: 3rpx solid #c04851;
+  color: #c04851;
+}
+
+.addIconHidden {
+  display: none;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* opacity:1;
+  height: 36rpx;
+  font-size:22rpx;
+  font-weight:700;
+  padding:0 8rpx 0 10rpx; */
+}
+
+.addImg {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 90rpx;
+  margin-left: 30rpx;
+  border: 3rpx solid #c04851;
 }

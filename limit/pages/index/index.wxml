@@ -1,8 +1,23 @@
-<!--index.wxml-->
 <view class="title">
-  <textarea placeholder-class="place-holder" placeholder="写下关于元素的介绍 " name="introduction" maxlength='300' bindinput='limit' value="{{text}}" />
+  <textarea placeholder-class="place-holder" placeholder="写下你此时的心情 ..." name="introduction" maxlength='300' bindinput='limit' value="{{text}}" />
   <!-- 显示字数 -->
   <view class="count">
     <text>{{current}} / {{max}} （最多可写300字）</text>
   </view>
 </view>
+<view class="uploadTitle">请上传图片:{{imgs.length}}/{{9-[imgs.length]}}</view>
+<!-- 图片上传 -->
+<view class="imgUpload">
+  <view class='pic' wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+    <image src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg">
+      <!-- 删除按钮 -->
+      <icon type='cancel' class="deleteBtn" data-index="{{index}}" catchtap="deleteImg"></icon>
+    </image>
+  </view>
+  <!-- 用来提示用户上传图片 -->
+  <view wx:if="{{[imgs.length]<9}}" class="pic" bindtap="chooseImg">
+    <view class="addIcon">+</view>
+    <!-- <view class="addIcon">+</view> -->
+  </view>
+</view>
+<button type="primary" bindtap="Imgsubmit">发表</button>
